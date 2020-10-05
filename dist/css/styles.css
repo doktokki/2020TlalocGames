@@ -46,7 +46,7 @@ body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
 
-.cycle-slideshow { width: 100% }
+.cycle-slideshow { width: 200% }
 .cycle-slideshow img { width: auto; height: 200% }
 
 /* Slideshow container */
