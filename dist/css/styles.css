@@ -2458,7 +2458,7 @@ textarea.form-control {
 .marginauto {
     margin: 10px auto 20px;
     display: block;
-}
+} 
 .btn:focus, .btn.focus {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(189, 93, 56, 0.25);
