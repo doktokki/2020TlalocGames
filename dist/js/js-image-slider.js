@@ -17,6 +17,20 @@ var sliderOptions=
 	license: "mylicense"
 };
 
+var i=0;
+var slideshow = new Array();
+var image;
+
+function nextImage(slideshow, i){
+	image = slideshow[i];
+	i++;
+}
+
+function reset(slideshow){
+	image = slideshow[0];
+}
+
+
 var imageSlider=new mcImgSlider(sliderOptions);
 
 /* Menucool Javascript Image Slider v2016.9.27. Copyright www.menucool.com */
