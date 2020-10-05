@@ -1,6 +1,6 @@
 var sliderOptions=
 {
-	sliderId: "slider",
+	sliderId: "slider" || "slider1",
 	startSlide: 0,
 	effect: "13",
 	effectRandom: false,
@@ -17,18 +17,6 @@ var sliderOptions=
 	license: "mylicense"
 };
 
-var i=0;
-var slideshow = new Array();
-var image;
-
-function nextImage(slideshow, i){
-	image = slideshow[i];
-	i++;
-}
-
-function reset(slideshow){
-	image = slideshow[0];
-}
 
 
 var imageSlider=new mcImgSlider(sliderOptions);
